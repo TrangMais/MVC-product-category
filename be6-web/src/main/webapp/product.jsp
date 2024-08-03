@@ -18,7 +18,7 @@
         <li><a href="Product?category=fruits">Fruits </a></li>
     </ul>
     <c:choose>
-        <c:when test="${not empty requestScope.products}"> <!-- specified condition -->
+        <c:when test="${not empty requestScope.products}"> 
             <table>
                 <tr>
                     
