@@ -10,7 +10,7 @@
  <h1>Comment ${productId}</h1>
     <form action="product" method="post">
         <textarea name="comment" rows="4" cols="100"></textarea><br>
-        <input type="submit" value="Submit Feedback">
+        <input type="submit" value="Submit">
         
         <input type="hidden" name="username" value="${username}">
         <input type="hidden" name="productName" value="${productName}">
